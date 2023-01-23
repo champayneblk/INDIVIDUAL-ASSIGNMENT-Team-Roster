@@ -1,0 +1,84 @@
+{
+"-NMVANlzizFftFoDxBua":{
+  "first_name":"Amabel",
+  "last_name":"Ogers",
+  "email":"aogers1@ebay.com",
+  "team_captain":false,
+  "team_id":"-NMVIHr40cC486b4JIoH",
+  "uid": "",
+  "firebaseKey": "-NMVANlzizFftFoDxBua"
+},
+"-NMVANm1nG2By4Ap1qyx":{
+  "first_name":"Marchelle",
+  "last_name":"Bichener",
+  "email":"mbichener2@homestead.com",
+  "team_captain":false,
+  "team_id": "-NMVIHr5n-V4E95pp7Hl",
+  "uid": "",
+  "firebaseKey": "-NMVANm1nG2By4Ap1qyx"
+},
+"-NMVANm3WM5yYggBPJly":{
+  "first_name":"Antony",
+  "last_name":"Cawt",
+  "email":"acawt3@cnet.com",
+  "team_captain":false,
+  "team_id":"-NMVIHr76bAhWc5zdjBZ",
+  "uid": "",
+  "firebaseKey": "-NMVANm3WM5yYggBPJly"
+},
+"-NMVANm6U6E1p6hknckn":{
+  "first_name":"Emiline",
+  "last_name":"Werrit",
+  "email":"ewerrit4@webnode.com",
+  "team_captain":true,
+  "team_id":"-NMVIHr40cC486b4JIoH",
+  "uid": "",
+  "firebaseKey": "-NMVANm6U6E1p6hknckn"
+},
+"-NMVANm8ZGay7xzmkrMn":{
+  "first_name":"Melania",
+  "last_name":"Cuttle",
+  "email":"mcuttle5@newsvine.com",
+  "team_captain":false,
+  "team_id":"-NMVIHr5n-V4E95pp7Hl",
+  "uid": "",
+  "firebaseKey": "-NMVANm8ZGay7xzmkrMn"
+},
+"-NMVANmBo6Mno-aR1_mX":{
+  "first_name":"Lisette",
+  "last_name":"Hawkings",
+  "email":"lhawkings6@github.com",
+  "team_captain":true,
+  "team_id":"-NMVIHr76bAhWc5zdjBZ",
+  "uid": "",
+  "firebaseKey":"-NMVANmBo6Mno-aR1_mX"
+},
+"-NMVANmDbYUJQf5A3f8Z":
+{
+"first_name":"Salvador",
+"last_name":"Soulsby",
+"email":"ssoulsby7@nih.gov",
+"team_captain":false,
+"team_id":"-NMVIHr40cC486b4JIoH",
+"uid": "",
+"firebaseKey":"-NMVANmDbYUJQf5A3f8Z" 
+},
+"-NMVANmIEJ3Irt97rAUm":{
+  "first_name":"Adriana",
+  "last_name":"Snartt",
+  "email":"asnartt8@myspace.com",
+  "team_captain":true,
+  "team_id":"-NMVIHr5n-V4E95pp7Hl",
+  "uid": "",
+  "firebaseKey": "-NMVANmIEJ3Irt97rAUm"
+},
+"-MiBuU13EaKmGOMjJF-P":{
+  "first_name":"Mano",
+  "last_name":"Shatliffe",
+  "email":"mshatliffe9@redcross.org",
+  "team_captain":false,
+  "team_id":"-NMVIHr76bAhWc5zdjBZ",
+  "uid": "",
+  "firebaseKey": "-MiBuU13EaKmGOMjJF-P"
+}
+}
