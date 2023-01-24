@@ -2,11 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+// import { deleteMember } from '../api/memberData';
 
 function MemberCard() {
-  // const deleteThisBook = () => {
-  //   if (window.confirm(`Delete ${bookObj.title}?`)) {
-  //     deleteBook(bookObj.firebaseKey).then(() => onUpdate());
+  // const deleteThisMember = () => {
+  //   if (window.confirm(`Delete ${memberObj.first_name}?`)) {
+  //     deleteMember(memberObj.firebaseKey).then(() => onUpdate());
   //   }
   // };
 
@@ -23,19 +24,21 @@ function MemberCard() {
         <Card.Link href="#">Edit Member Info
           <Button variant="primary" className="m-2">VIEW</Button>
         </Card.Link>
-        <Button variant="primary">Remove Member</Button>
+        {/* <Button variant="danger" onClick={deleteThisMember}> Remove Member</Button> */}
       </Card.Body>
     </Card>
   );
 }
 
-MemberCard.prototype = {
-  memberobj: PropTypes.shape({
+MemberCard.propType = {
+  memberObj: PropTypes.shape({
     first_name: PropTypes.string,
     last_name: PropTypes.string,
     email: PropTypes.string,
     team_captian: PropTypes.bool,
     firebaseKey: PropTypes.string,
   }).isRequired,
+  onUpdate: PropTypes.func.isRequired,
 };
+
 export default MemberCard;
