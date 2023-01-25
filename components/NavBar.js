@@ -17,13 +17,13 @@ export default function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             {/* CLOSE NAVBAR ON LINK SELECTION: https://stackoverflow.com/questions/72813635/collapse-on-select-react-bootstrap-navbar-with-nextjs-not-working */}
-            <Link passHref href="/members">
-              <Nav.Link>Members</Nav.Link>
+            <Link passHref href="/team">
+              <Nav.Link>Team</Nav.Link>
             </Link>
             <Link passHref href="/new">
               <Nav.Link>NEW</Nav.Link>
             </Link>
-            <Link passHref href="/member/captains">
+            {/* <Link passHref href="/member/captains">
               <Nav.Link>Team Captains</Nav.Link>
             </Link>
             <Link passHref href="/teams/new">
@@ -31,7 +31,7 @@ export default function NavBar() {
             </Link>
             <Link passHref href="/teams">
               <Nav.Link>TEAM</Nav.Link>
-            </Link>
+            </Link> */}
             <Button variant="danger" onClick={signOut}>Sign Out</Button>
           </Nav>
         </Navbar.Collapse>

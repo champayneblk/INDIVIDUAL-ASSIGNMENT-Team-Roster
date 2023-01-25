@@ -38,19 +38,21 @@ function MemberForm({ obj }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (obj.firebaseKey) {
-      updateMember(formInput)
-        .then(() => router.push(`/members/${obj.firebaseKey}`));
+      updateMember(formInput).then(() => router.push('/'));
     } else {
       const payload = { ...formInput, uid: user.uid };
-      AddMember(payload).then(() => {
-        router.push('/');
+      AddMember(payload).then(({ name }) => {
+        const patchPayload = { firebaseKey: name };
+        updateMember(patchPayload).then(() => {
+          router.push('/team');
+        });
       });
     }
   };
 
   return (
     <Form onSubmit={handleSubmit}>
-      <h2 className="text-white mt-5">{obj.firebaseKey ? 'Update' : 'Add'} Member</h2>
+      <h2 className="text-white mt-5">{obj.firebaseKey ? 'Update' : 'Add'} A Member</h2>
 
       {/* FIRST NAME INPUT  */}
       <FloatingLabel controlId="floatingInput1" label="First Name" className="mb-3">
@@ -105,7 +107,7 @@ function MemberForm({ obj }) {
                 key={team.firebaseKey}
                 value={team.firebaseKey}
               >
-                {team.name}
+                {team.team_name}
               </option>
             ))
           }
@@ -122,13 +124,13 @@ function MemberForm({ obj }) {
         onChange={(e) => {
           setFormInput((prevState) => ({
             ...prevState,
-            sale: e.target.checked,
+            team_captain: e.target.checked,
           }));
         }}
       />
 
       {/* SUBMIT BUTTON  */}
-      <Button type="submit">{obj.firebaseKey ? 'Update' : 'Add'} Member</Button>
+      <Button type="submit">{obj.firebaseKey ? 'Update' : 'Create'} Member</Button>
     </Form>
   );
 }
