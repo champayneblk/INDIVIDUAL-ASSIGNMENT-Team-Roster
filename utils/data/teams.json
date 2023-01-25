@@ -2,21 +2,21 @@
   "-NMVIHr40cC486b4JIoH": {
     "team_name": "Avamba",
     "image": "http://dummyimage.com/198x100.png/ff4444/ffffff",
-    "uid": null,
+    "uid": "",
     "email": "joldam0@google.it",
     "firebaseKey": "-NMVIHr40cC486b4JIoH"
   },
   "-NMVIHr5n-V4E95pp7Hl": {
     "team_name": "Mudo",
     "image": "http://dummyimage.com/186x100.png/cc0000/ffffff",
-    "uid": null,
+    "uid": "",
     "email": "sosorio1@hexun.com",
     "firebaseKey":"-NMVIHr5n-V4E95pp7Hl"
   },
   "-NMVIHr76bAhWc5zdjBZ": {
     "team_name": "Feedbug",
     "image": "http://dummyimage.com/109x100.png/dddddd/000000",
-    "uid": null,
+    "uid": "",
     "email": "lgoodbanne2@hhs.gov",
     "firebaseKey": "-NMVIHr76bAhWc5zdjBZ"
   }

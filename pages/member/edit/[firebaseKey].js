@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import { getSingleMember } from '../../../api/memberData';
 import MemberForm from '../../../components/forms/MemberForm';
 
-export default function EditAuthor() {
+export default function EditMember() {
   const [editMember, setEditMember] = useState({});
   const router = useRouter();
 
