@@ -13,7 +13,8 @@ function MemberCard({ memberObj, onUpdate }) {
   };
 
   return (
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ width: '18rem', margin: '10px' }}>
+      <Card.Img variant="top" src={memberObj.image} alt={memberObj.first_name} style={{ height: '400px' }} />
       <Card.Body>
         <Card.Title> {memberObj.first_name}</Card.Title>
         <Card.Title> {memberObj.last_name}</Card.Title>
@@ -28,6 +29,7 @@ function MemberCard({ memberObj, onUpdate }) {
 
 MemberCard.propTypes = {
   memberObj: PropTypes.shape({
+    image: PropTypes.string,
     first_name: PropTypes.string,
     last_name: PropTypes.string,
     email: PropTypes.string,

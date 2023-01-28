@@ -23,6 +23,7 @@ export default function ViewTeam() {
     <div className="mt-5 d-flex flex-wrap">
       <div className="d-flex flex-column">
         <img src={teamDetails.image} alt={teamDetails.team_name} style={{ width: '300px' }} />
+        <h3>{teamDetails.team_name}</h3>
       </div>
       <div className="text-white ms-5 details">
         <h5>
