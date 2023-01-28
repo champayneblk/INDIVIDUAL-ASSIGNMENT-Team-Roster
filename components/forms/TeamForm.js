@@ -34,11 +34,14 @@ function TeamForm({ obj }) {
     e.preventDefault();
     if (obj.firebaseKey) {
       updateTeam(formInput)
-        .then(() => router.push(`/teams/${obj.firebaseKey}`));
+        .then(() => router.push('/teams'));
     } else {
       const payload = { ...formInput, uid: user.uid };
-      createTeam(payload).then(() => {
-        router.push('/teams');
+      createTeam(payload).then(({ name }) => {
+        const patchPayload = { firebaseKey: name };
+        updateTeam(patchPayload).then(() => {
+          router.push('/teams');
+        });
       });
     }
   };

@@ -1,6 +1,7 @@
 {
 "-NMVANlzizFftFoDxBua":{
   "first_name":"Amabel",
+  "image": "http://dummyimage.com/186x100.png/cc0000/ffffff",
   "last_name":"Ogers",
   "email":"aogers1@ebay.com",
   "team_captain":false,
@@ -10,6 +11,7 @@
 },
 "-NMVANm1nG2By4Ap1qyx":{
   "first_name":"Marchelle",
+  "image": "http://dummyimage.com/186x100.png/cc0000/ffffff",
   "last_name":"Bichener",
   "email":"mbichener2@homestead.com",
   "team_captain":false,

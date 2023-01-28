@@ -9,7 +9,6 @@ export default function EditTeam() {
   // TODO: grab the firebasekey
   const { firebaseKey } = router.query;
 
-  // TODO: make a call to the API to get the book data
   useEffect(() => {
     getSingleTeam(firebaseKey).then(setEditItem);
   }, [firebaseKey]);
