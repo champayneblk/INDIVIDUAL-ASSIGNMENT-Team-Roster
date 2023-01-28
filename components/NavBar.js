@@ -11,7 +11,7 @@ export default function NavBar() {
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
         <Link passHref href="/">
-          <Navbar.Brand>CHAMPAYNE FLUTES</Navbar.Brand>
+          <Navbar.Brand>🐉 Thrones 🐉</Navbar.Brand>
         </Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -23,9 +23,9 @@ export default function NavBar() {
             <Link passHref href="/new">
               <Nav.Link>NEW</Nav.Link>
             </Link>
-            <Link passHref href="/member/captains">
+            {/* <Link passHref href="/member/captains">
               <Nav.Link>Team Captains</Nav.Link>
-            </Link>
+            </Link> */}
             <Link passHref href="/teams">
               <Nav.Link>TEAMS</Nav.Link>
             </Link>
